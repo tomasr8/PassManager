@@ -48,7 +48,7 @@ Name: "startmenu"; Description: "Create a start menu shortcut"; GroupDescription
 
 [Files]
 ; copy the files in both directories and preserve the directory structure
-Source: "builds\PassManager-win32-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\PassManager-win32-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
