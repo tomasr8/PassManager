@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>PassManager</title>
+
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="milligram.css" />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./styles.css" />
+
+        <!-- Scripts -->
+        <script src="./window.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <input type="password" required id="pass" />
+                    <input type="checkbox" id="showPass" />
+                    <label class="label-inline" for="showPass">Show password</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column column-67">
+                    <button class="button button-outline" id="open">Open encrypted file</button>
+                    <button class="button button-outline" id="save">Save</button>
+                    <button class="button button-outline" id="saveAs">Save as..</button>
+                </div>
+                <div class="column column-33 notif-container"><span id="notif">File saved</span></div>
+            </div>
+
+            <div class="row">
+                <div class="column"><textarea id="text" rows="20"></textarea></div>
+            </div>
+        </div>
+    </body>
+</html>

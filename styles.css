@@ -1,0 +1,42 @@
+.container {
+    margin-top: 0;
+    padding: 1rem;
+}
+
+body {
+    background-color: #e1e4e8;
+}
+
+textarea {
+    height: 100%;
+    background-color: #fafbfc;
+    margin-bottom: 60px !important;
+    resize: none;
+}
+
+#pass {
+    background-color: #fafbfc;
+    max-width: 439px;
+}
+
+#notif {
+    background-color: #b9f6ca;
+    border-radius: 5px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+    cursor: pointer !important;
+    border: 0.1rem solid #69f0ae;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 3.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 3.8rem;
+    padding: 0 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}

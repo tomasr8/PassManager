@@ -1,0 +1,16 @@
+{
+  "name": "activity-monitor",
+  "version": "1.0.0",
+  "description": "CPU activity monitor",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "package": "electron-packager ./ PassManager --out=./build --icon=icon.ico --platform=win32 --arch=x64 --overwrite"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-packager": "^14.2.1"
+  }
+}
